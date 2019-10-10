@@ -336,17 +336,20 @@ footer .container {
           border-bottom: 1px solid #E5E4E4; }
           #pageContent .myDropdownMenu > li > ul > li > ul > li > a {
             color: #000000; }
-          #pageContent .myDropdownMenu > li > ul > li > ul > li:hover {
+          #pageContent .myDropdownMenu > li > ul > li > ul > li:hover, #pageContent .myDropdownMenu > li > ul > li > ul > li:focus {
             background: #FCFCFC;
             border-right: 4px solid #58B094; }
-            #pageContent .myDropdownMenu > li > ul > li > ul > li:hover > a {
+            #pageContent .myDropdownMenu > li > ul > li > ul > li:hover > a, #pageContent .myDropdownMenu > li > ul > li > ul > li:focus > a {
               color: #58B094; }
-    #pageContent .myDropdownMenu li:hover > a > span {
+    #pageContent .myDropdownMenu li:hover > a > span,
+    #pageContent .myDropdownMenu li:focus > a > span {
       border-right-color: transparent;
       border-top-color: white; }
-      #pageContent .myDropdownMenu li:hover > a > span::after {
+      #pageContent .myDropdownMenu li:hover > a > span::after,
+      #pageContent .myDropdownMenu li:focus > a > span::after {
         display: none !important; }
-    #pageContent .myDropdownMenu li:hover > ul {
+    #pageContent .myDropdownMenu li:hover > ul,
+    #pageContent .myDropdownMenu li:focus > ul {
       height: auto;
       -webkit-transform: scaleY(1);
       -ms-transform: scaleY(1);

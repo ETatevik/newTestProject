@@ -420,7 +420,8 @@ footer .container{
 						color: #000000;
 					}
 
-					&:hover{
+					&:hover,
+					&:focus{
 						background: #FCFCFC;
 						& > a{
 							color: #58B094;
@@ -431,7 +432,8 @@ footer .container{
 			}
 		}
 
-		& li:hover{
+		& li:hover,
+		& li:focus{
 			& > a > span{
 				border-right-color: transparent;
 				border-top-color: white;
