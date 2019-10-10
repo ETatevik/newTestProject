@@ -15,7 +15,476 @@
     <title>VS</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <!-- Menu + Menu Icon -->
+    <nav>
+      <div id="menuVS" class="container-fluid">
+        <div class="container">
+          <div class="row navbar navbar-expand-xl navbar-dark">
+            <div class="col-xl-1  col-12 d-flex justify-content-between">
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-xl  col-12 ">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  justify-content-around w-100">
+                  <li class="nav-item active ">
+                    <a class="nav-link" href="#">
+                      <span  class="navbar-toggler-icon d-none d-xl-inline-block"></span> 
+                      <span>Все прогнозы</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Экспрессы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Футбол</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Хоккей</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Теннис</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Баскетбол</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Волейбол</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Киберспорт</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-2  col-12 menuBTSvs">
+              <button type="button" class="menuSearchVS"><i class="fas fa-search"></i></button>
+              <button type="button" class="menuShareVS"><i class="fas fa-share-alt"></i></button>
+              <button type="button" class="text-uppercase loginVS">Войти</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menuIconVS" class="container-fluid">
+        <div class="container">
+          <div class="my-row">
+            <div class="my-col">
+              <a href="#" class="media active" role="botton">
+                <img src="img/menuIcon/рating.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">Рейтинг</h5>
+                  Букмекеров
+                </div>
+              </a>
+            </div>
+            <div class="my-col">
+              <a href="#" class="media" role="botton">
+                <img src="img/menuIcon/bonuses.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">Бонусы</h5>
+                  Букмекеров
+                </div>
+              </a>
+            </div>
+            <div class="my-col">
+              <a href="#" class="media" role="botton">
+                <img src="img/menuIcon/vip.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">VIP</h5>
+                  Прогнозы
+                </div>
+              </a>
+            </div>
+            <div class="my-col">
+              <a href="#" class="media" role="botton">
+                <img src="img/menuIcon/statistics.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">Статистика</h5>
+                  Прогнозов
+                </div>
+              </a>
+            </div>
+            <div class="my-col">
+              <a href="#" class="media" role="botton">
+                <img src="img/menuIcon/guide.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">Гид</h5>
+                  По ставкам
+                </div>
+              </a>
+            </div>
+            <div class="my-col">
+              <a href="#" class="media" role="botton">
+                <img src="img/menuIcon/contests.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">Конкурсы</h5>
+                  Прогнозов
+                </div>
+              </a>
+            </div>
+            <div class="my-col">
+              <a href="#" class="media" role="botton">
+                <img src="img/menuIcon/challenge.svg" class="mr-3" alt="рating">
+                <div class="media-body">
+                  <h5 class="my-0 text-uppercase">100.000 Рублей</h5>
+                  Челлендж
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Navbar breadcrumb -->
+    <section id="breadcrumbVS">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+            <li class="breadcrumb-item"><a href="#">Все прогнозы на спорт</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Центр ставок</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    
+    <!-- Section About PageContent -->
+    <section id="pageContent">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Рэйтинг экспертов</h2>
+          </div>
+
+          <div class="col-12 col-lg">
+            <ul class="nav nav-pills filterVS" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="text-uppercase nav-link active" data-toggle="pill" href="#" role="tab" aria-controls="" aria-selected="true">Стабильные за месяц</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-uppercase nav-link" data-toggle="pill" href="#p" role="tab" aria-controls="" aria-selected="false">За месяц</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-uppercase nav-link"  data-toggle="pill" href="#" role="tab" aria-controls="" aria-selected="false">За все время</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-uppercase nav-link"  data-toggle="pill" href="#" role="tab" aria-controls="" aria-selected="false">Выигрышные серии</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-uppercase nav-link"  data-toggle="pill" href="#" role="tab" aria-controls="" aria-selected="false">Популярные</a>
+              </li>
+            </ul>
+
+            <div class="table-responsive">
+              <table class="table ">
+                <thead>
+                  <tr>
+                    <th scope="col">N<span>0</span></th>
+                    <th scope="col">Имя <i class="fas fa-long-arrow-alt-up"></i></th>
+                    <th scope="col">Прибыль <i class="fas fa-long-arrow-alt-up"></i></th>
+                    <th scope="col">Всего</th>
+                    <th scope="col">W/L/D</th>
+                    <th scope="col">Кф</th>
+                    <th scope="col">Сумма</th>
+                    <th scope="col">% <i class="fas fa-long-arrow-alt-up"></i></th>
+                    <th scope="col">RDI</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Владимир Петров</td>
+                    <td>+356.8%</td>
+                    <td>89</td>
+                    <td>48/39/2</td>
+                    <td>3.17</td>
+                    <td>262</td>
+                    <td>55%</td>
+                    <td>+34.1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Михаил Филиппов</td>
+                    <td>+311.3%</td>
+                    <td>81</td>
+                    <td>42/31/1</td>
+                    <td>3.02</td>
+                    <td>234</td>
+                    <td>51%</td>
+                    <td>32.2%</td>
+                  </tr>
+                  <tr class="showMore">
+                    <td colspan="9" class="text-center"><a href="#">Пказать еще <span><i class="align-middle fas fa-chevron-right"></i></span></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <ul class="myDropdownMenu">
+              <li><a href="#">Прогнозы <span class="arL"></span></a></li>
+              <li><a href="#">По видам спорта <span class="arL"></span></a>
+                  <ul>
+                    <li><a href="#">Футбол <span class="arL"></span></a></li>
+                    <li><a href="#">Хокей <span class="arL"></span></a>
+                      <ul>
+                        <li><a href="#">КХЛ</a></li>
+                        <li><a href="#">НХЛ</a></li>
+                        <li><a href="#">Сборные</a></li>
+                        <li><a href="#">ЧМ-2018</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Теннис <span class="arL"></span></a></li>
+                    <li><a href="#">Баскетбол</a></li>
+                    <li><a href="#">Киберспорт</a></li>
+                    <li><a href="#">Бокс/MMA/UFC</a></li>
+                    <li><a href="#">Бейсбол</a></li>
+                    <li><a href="#">Водное поло</a></li>
+                    <li><a href="#">Биатлон</a></li>
+                  </ul>
+              </li>
+              <li><a href="#">Рейтинг букмекеров</a></li>
+              <li><a href="#">Бонусы</a></li>
+              <li><a href="#">100.000 рублей Челлендж</a></li>
+              <li><a href="#">Гид по ставкам <span class="arL"></span></a></li>
+              <li><a href="#">Конкурс</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">О нас</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-xl-1">
+            <div class="breadFooter"><a href="#"><img src="img/logoFooter.svg" alt=""></a></div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4 copyAndDate">
+            <p>&copy; 2011-2017 &#8810;Все про спорт.ру &#8811; </p>
+            <p>Любое использование материалов приветсвутеся при гиперссылие.</p>
+          </div>
+          <div class="col-12 col-md-6 col-xl-2 contactUs text-center">
+            <a href="mailto:ex@mail.com" class="btn text-uppercase" role='button'><i class="fas fa-envelope"></i> Связаться с нами</a>       
+          </div>
+          <div class="col-12 col-md-6 col-xl-5 d-flex socPAges align-items-center justify-content-start justify-content-xl-around">
+            <p>Мы в социальных сетях: </p>
+            <ul class="list-group list-group-horizontal list-unstyled">
+              <li class="list-group-item"><a href="#"><i class="fab fa-vk"></i></a></li>
+              <li class="list-group-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-group-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-group-item"><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <script src="js/all.min.js"></script>

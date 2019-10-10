@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 32" width="69" height="32">
+	<defs>
+		<image width="69" height="32" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAgCAMAAABzakXyAAAAAXNSR0IB2cksfwAAAexQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8zeSHwAAAKR0Uk5TAB6b5vC9TBKM3rxQCFei0u3XfwcV0//9VgzEY8+nA4HjfOUReEm6jyrzPnP5NrRB+5GLwAJT7hoFVSHsZg/ZcYPWjfT26Z7IlysBuEYsLzAZP/w7rgTHmsXxKBtn2n7DMyAWa5Dv4sydQMaYTkizLvq5qQbOmcpcQluGn9ALiPf+Yd83FG7yvwliInt11OCWF+R2lB+ShVkTer7n6E9kDjRdy9iPFVD6AAACa0lEQVR4nK2W51sTQRDGR3MhBomi4GpADhUiElHQQBKiWBAssQDRoBFRiYpYUCyIioIgNiwQKypY/1H3cjt7bTc++Ph+yLMz8+4vd3NzmwAsWOhS3HkglmeRV8lfjFGBb8nSQsWmZcuLAIpXEKqVq4QQf4lWJKV6lLeaCFWmQrm+WlMsoqzVi+sqtKBSzKAKwHq2qhJANlSzYpAGG6UQujefrWo2OSmb0VYLEKyTU7bAVlyG6u2QBiyFIxAtkUNII8S24Xq7DdK0AyvlALU5IG76kHZi4IpYKbuwsNsP0Mz37GmxqnWv9mCK9mF9vwVyAFtL6LzEDyLx0OEjFrW16/aOBHPUHBW29hgNkp0sCIgGIqvj6D+RFLQ2dVKj4AV3SCldrbjjFM9VdGPutBbGcSDOnO2JodJRC+Ycb3AXpvgAaK2lOo9x4gK+QKnei32XTJTkZfRcYZm2Fsxc1RP9RKxr1w1MEBs8EMzG6g103WSOW7clmHC/gRnE5J0CLRzinhg6AhIKqb7LKREXJu/RyOPFqNL4ovsyjDfNPaWYGwbToD54aFDqq2SYEe5RQyzVR1s7ytaPTPdMNTYupriauOXxAN6RikcOKQOrJp64e1P8qHzKMabzVr/vZ8/hBRbDPeBQepIP3eQQcl4adfXVa+XNlAemM0h564RYNcKM78xJ//sJ+vkBIZ1RyWauj8w55ahgf0jdp5npXEq3+wqZ9bMdkvyCl5LIfJ3NKf4Okzk75ZtkJnJpdsYG+d79900ONdsv5cc/QDKR/0AZdR6i878jpUEwAj/nCQkJflKpfL/sfy3k+j08F89u+gNsf9heR+ag8gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Подвал">
+		<use id="лого" href="#img1" x="0" y="0" />
+	</g>
+</svg>
