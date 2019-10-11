@@ -335,11 +335,6 @@ footer .container{
 			list-style: none;
 			padding: 0;
 			margin: 0;
-			transform: scaleY(0);    
-    		transform-origin: top;			
-    		overflow: hidden;
-    		height: 0;
-			transition: 0.26s ease;
 		}
 
 		a{
@@ -354,29 +349,11 @@ footer .container{
 			align-items: center;
 			padding: 17px 16px 17px 19px ;
 
-
+			.alt{
+				transition: .5s;
+			}
 			&:hover{
 				text-decoration: none;
-			}
-
-			&>span.arL{
-				display: inline-block;
-				border-top: 8px solid transparent;
-				border-bottom: 8px solid transparent;
-				border-left: 6px solid transparent;
-				border-right: 6px solid white;
-				position: relative;
-
-				&:after{
-					position: absolute;
-					content: '';
-					border-top: 4px solid transparent;
-					border-bottom: 4px solid transparent;
-					border-left: 3px solid transparent;
-					border-right: 3px solid #58b094;
-					top: -4px;
-					left: -1px;
-				}
 			}
 		}
 
@@ -387,19 +364,12 @@ footer .container{
 			border-top: 1px solid #65C7A8;
 			border-bottom: 1px solid #65C7A8;
 
-			&:hover{
+			&:hover,
+			&.active{
 				background: #65C7A8;
-
-				& > a > span{
-					border-right-color: transparent;
-					border-top-color: white;
-					&::after{
-						display: none !important;
-					}
-				}
 			}
-
-			& > ul > li{
+		}
+		& > ul > li{
 				background: #6fd9b7;
 				border-top:1px solid #82EECB;
 				border-bottom:1px solid #82EECB;
@@ -407,11 +377,12 @@ footer .container{
 				& > a > span::after{
 					border-right-color: #6fd9b7 !important;
 				}
-				&:hover{
+				&:hover,
+				&.active{
 					background: #58B094;
 				}
 
-				& > ul > li{
+				& + ul > li{
 					background: #F5F5F5;
 					border-top: 1px solid #E5E4E4;
 					border-bottom: 1px solid #E5E4E4;
@@ -421,7 +392,8 @@ footer .container{
 					}
 
 					&:hover,
-					&:focus{
+					&:focus,
+					&.active{
 						background: #FCFCFC;
 						& > a{
 							color: #58B094;
@@ -430,21 +402,9 @@ footer .container{
 					}
 				}
 			}
-		}
 
-		& li:hover,
-		& li:focus{
-			& > a > span{
-				border-right-color: transparent;
-				border-top-color: white;
-				&::after{
-					display: none !important;
-				}
-			}
-			& > ul{
-				height: auto;
-				transform: scaleY(1);
-			}
+		& li.active .arL{
+			transform: rotate(-90deg);
 		}
 	}
 }
